@@ -3,7 +3,7 @@ on:
   push:
     paths: ['tdir/*']
 jobs:
-  create_commit:
+  raise_pull_request:
     runs-on: ubuntu-latest
     steps:
     - name: Raise PR using REST API
